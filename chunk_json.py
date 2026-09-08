@@ -3,7 +3,7 @@ import json
 with open("chunks.json", "r") as f:
     data = json.load(f)
 
-chunk_size = len(data)
+chunk_size_len = len(data)
 chunk_count = 0
 
 for i in range(0, len(data), chunk_size):
