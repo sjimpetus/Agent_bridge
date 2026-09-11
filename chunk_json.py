@@ -4,7 +4,7 @@ with open("chunks.json", "r") as f:
     data = json.load(f)
 
 chunk_size_len = len(data)
-chunk_count = 0
+token = 0
 
 for i in range(0, len(data), chunk_size):
     chunk_count += 1
